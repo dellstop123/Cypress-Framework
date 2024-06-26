@@ -11,14 +11,6 @@ pipeline {
     }*/
 
     //NoAnsi Color Plugin helps to avoid weird Jenkins console output and displays the console output in color format
-    options {
-        ansiColor('xterm')
-    }
-   
-   tools {
-       //Use Node name configured in global tools configuration for Node Jenkins Plugin
-       nodejs "Node 22.3.0"
-   }
    
 
    //The parameters directive provides a list of parameters that a user should provide when triggering the Pipeline.
